@@ -1,0 +1,24 @@
+{
+  "name": "backface",
+  "version": "1.0.0",
+  "description": "Advanced UI presentation for React using BabylonJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allen-woods/backface.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "babylonjs"
+  ],
+  "author": "Allen Woods <allen@thesupertask.com> (thesupertask.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allen-woods/backface/issues"
+  },
+  "homepage": "https://github.com/allen-woods/backface#readme"
+}
