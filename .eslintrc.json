@@ -1,9 +1,11 @@
 {
   "env": {
     "browser": true,
+    "node": true,
+    "commonjs": true,
     "es6": true
   },
-  "extends": ["standard", "prettier"],
+  "extends": ["eslint:recommended"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -15,8 +17,13 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
+  /* NOTE: this option breaks formatOnSave
   "plugins": ["prettier", "react"],
+  */
   "rules": {
-    "prettier/prettier": ["error"]
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-console": "off"
   }
 }
